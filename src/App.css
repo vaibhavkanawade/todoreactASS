@@ -1,0 +1,81 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: arial, sans-serif;
+
+}
+
+.h1 {
+  text-align: center
+}
+
+.task {
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  background-color: #061b07;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+.add-button:hover {
+  background-color: #ef1911;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* .overdue{
+  border-color: yellow;
+  color:red;
+} */
+
+/* .overdue-message{
+  color:red;
+  margin-left:auto;
+} */
+.delete-task {
+  padding: 4px 8px;
+  background-color: #f90606;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 5px;
+
+}
+
+.delete-task:hover {
+  background-color: #d33c3c;
+}
